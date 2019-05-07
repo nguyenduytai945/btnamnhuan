@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<head>
+	<style>
+		body{
+			margin-left: 470px;
+
+			margin-top: 50px;
+			margin-right: 700px;
+
+		}
+		.t {
+			border:solid;
+		}
+		#table{
+			border:2px solid;
+			width: 210px;
+			color: #FF0000;
+			padding: 15px 15px 15px 15px;
+		}
+
+	</style>
+	<title></title>
+</head>
+<h2>
+	<center>Máy Tính Cơ Bản</center>
+</h2>
+<body>
+	<div id="table">
+	<table width="100px">
+		<input id="ketqua" type="text" style="width:171px"><br></br>
+        <input type="button" value="1" class="t; btn - btn-success" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="2" class="t; btn - btn-success" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="3" class="t; btn - btn-success" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="+" class="t; btn - btn-success" onclick="ketqua.value+=this.value"/><br></br>
+
+        <input type="button" value="4" class="t; btn - btn-danger" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="5" class="t; btn - btn-danger" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="6" class="t; btn - btn-danger" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="-" class="t; btn - btn-danger" onclick="ketqua.value+=this.value"/><br></br>   
+
+        <input type="button" value="7" class="t; btn - btn-info" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="8" class="t; btn - btn-info" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="9" class="t; btn - btn-info" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="*" class="t; btn - btn-info" onclick="ketqua.value+=this.value"/><br></br>
+
+        <input type="button" value="C" class="t; btn - btn-primary" onclick="ketqua.value=''"/>&ensp;
+        <input type="button" value="0" class="t; btn - btn-primary" onclick="ketqua.value+=this.value"/>&ensp;
+        <input type="button" value="=" class="t; btn - btn-primary" onclick="ketqua.value=eval(ketqua.value)"/>&ensp;
+        <input type="button" value="/" class="t; btn - btn-primary"  onclick="ketqua.value+=this.value"/>
+ </table>
+</div>
+</body>
+</html>
